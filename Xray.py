@@ -144,7 +144,7 @@ class Xray_signal:
         return np.trapz(to_int_ary, L_ary) / 4/np.pi # 1/keV/s/Mpc**3/sr
 
     #Now we pass to the cluster contribution; <rho_gas^2> is an adimensional quantity. This contribution comes from 
-    # free-free (thermal brem) from the gas. Notice that respect to dark matter decay this contributions scales with the desnity squared
+    # free-free (thermal brem) from the gas. Notice that respect to dark matter decay this contributions scales with the density squared
 
 
     def WindCluster(self, E,z):
